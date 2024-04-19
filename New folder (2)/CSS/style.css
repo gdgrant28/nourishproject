@@ -1,0 +1,291 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header{
+    font-size: 800%;
+    font-weight: bolder;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.importance {
+    font-weight: 600;
+    color: #222;
+}
+
+.highlight {
+    color: #009688;
+}
+
+.iphone-border {
+    width: 200px; /* Adjust width as needed */
+    height: 415px; /* Adjust height as needed */
+    border: 10px solid #000;
+    border-radius: 40px;
+    overflow: hidden;
+    position: relative; /* Position relative for absolute positioning inside */
+    margin: 20px 10px;
+}
+
+.iphone-border2 {
+    width: 200px; /* Adjust width as needed */
+    height: 415px; /* Adjust height as needed */
+    border: 10px solid #000;
+    border-radius: 40px;
+    overflow: hidden;
+    position: relative; /* Position relative for absolute positioning inside */
+    margin: 20px 10px;
+}
+
+
+.iphone-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.iphone-container2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.iphone {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1A702D;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iphone2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iphone2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Simulated screen */
+.iphone::before {
+    content: '';
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    width: 96%;
+    height: 90%;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+/* Simulated camera */
+.iphone::after {
+    content: '';
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #000;
+    border-radius: 50%;
+    transform: translateX(-50%);
+}
+
+/* Simulated notch */
+.iphone::before {
+    clip-path: polygon(50% 0%, 55% 10%, 45% 10%);
+}
+
+/* Simulated speaker */
+.iphone::before {
+    content: '';
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    width: 40px;
+    height: 3px;
+    background-color: #000;
+    border-radius: 3px;
+    transform: translateX(-50%);
+}
+
+.circle-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #fff; /* Change to your desired image */
+    overflow: hidden; /* Ensure image doesn't overflow */
+    object-fit: cover; 
+}
+
+.circle-image img {
+    width: 100%; /* Make the image fill the circle horizontally */
+    height: 100%; /* Make the image fill the circle vertically */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+}
+
+
+.carousel-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000;
+    margin: 0 5px;
+}
+
+.text-spot {
+    font-size: 14px;
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.text-spot2 {
+    font-size: 14px;
+    color: #fff;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.text-spot3 {
+    font-size: 14px;
+    color: #000000;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.next-button {
+    width: 50px;
+    height: 50px;
+    background-color: #FF8500;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    font-weight: 800;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.next-button2 {
+    width: 80%;
+    height: 40px;
+    background-color: #1A702D;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    color: white;
+    letter-spacing: 5%;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.rectangle-box {
+    margin-top: 60px;
+    width: 200px; /* Adjust width as needed */
+    height: 150px; /* Adjust height as needed */
+    overflow: hidden; /* Ensure image doesn't overflow */
+}
+
+.rectangle-box img {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.skip-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: white; /* Changed background color to white */
+    border-color: orange; /* Changed border color to orange */
+    color: green; /* Changed text color to green */
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    z-index: 999; /* Ensure the skip button appears above other content */
+    text-decoration: none;
+}
+
+.rectangle-box1 {
+    width: 100px; /* Adjust width as needed */
+    height: 75px; /* Adjust height as needed */
+    overflow: hidden; /* Ensure image doesn't overflow */
+}
+
+.rectangle-box1 img {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+}
